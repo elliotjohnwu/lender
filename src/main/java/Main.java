@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         LoanManager m1 = new LoanManager();
-        m1.addLoan("Alice Betsy", 100, 0.1);
+        m1.addLoan("Alice Betsy", 1000, 0.1);
         m1.addLoan("Ben Chee", 50, 0.2);
         m1.addLoan("Chris Davis", 30, 0.3);
         m1.setAsPaid("Ben Chee");
