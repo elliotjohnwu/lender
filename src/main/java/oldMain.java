@@ -50,6 +50,11 @@ public class oldMain {
         setAsPaid("Ben Chee");
         listLoans();
         System.out.println("profit: " + calculateProfitEarned());
+
+        Loan l1 = new Loan(1000, "John doe", 0.2, "987654");
+        //l1.setBorrower = ("John doe");
+        loans[0] = l1;
+
     }
 }
 
